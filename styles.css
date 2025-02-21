@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    transition: background-color 0.5s ease; /* Smooth transition for color change */
 }
 
 header {
@@ -17,18 +18,20 @@ section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgb(137, 130, 130);
-    border-radius: 40px;
-    box-shadow: 0 0 20px rgba(157, 23, 23, 0.867);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the button and text */
 }
 
 button {
     padding: 10px 20px;
-    background-color: #ff0000;
+    background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {

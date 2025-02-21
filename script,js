@@ -1,3 +1,9 @@
-function sayHello() {
-    alert("Hello! Thanks for visiting my site!");
+function turnBlue() {
+    // Change the background color to blue
+    document.body.style.backgroundColor = "#0000FF";
+    
+    // Reset back to original color after 3 seconds (3000 milliseconds)
+    setTimeout(function() {
+        document.body.style.backgroundColor = "#f4f4f4";
+    }, 3000);
 }
